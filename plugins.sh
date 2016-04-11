@@ -3,7 +3,7 @@
 # community edition from:
 # https://www.visualstudio.com/products/free-developer-offers-vs.aspx
 
-cd vimfiles/bundle
+cd vimfiles && mkdir bundle && cd bundle
 git clone https://github.com/scrooloose/nerdcommenter.git
 git clone https://github.com/scrooloose/nerdtree.git
 git clone https://github.com/scrooloose/syntastic.git
