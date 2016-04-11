@@ -1,3 +1,4 @@
+# run this as administator
 # requirements vim, pathogen, git, cmake, python,
 # racer (added to path), and visual studio
 # community edition from:
@@ -15,4 +16,6 @@ git clone git://github.com/tommcdo/vim-exchange.git && cd YouCompleteMe && git s
 # languages:
 # for standard library completions in rust download the rust source and move it to:
 # C:\Program Files\rust-source
+
+setx RUST_SRC_PATH "C:\Program Files\rust-source\src"
 git clone --depth=1 https://github.com/rust-lang/rust.vim.git
