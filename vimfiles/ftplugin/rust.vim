@@ -1,5 +1,5 @@
 setlocal tags=./rusty-tags.vi;/
-setlocal tags=./rusty-tags.vi;/,C:/Program\ Files/rust-master/rusty-tags.vi
+setlocal tags=./rusty-tags.vi;/,C:/Program\ Files/rust-source/rusty-tags.vi
 
 function! Println()
 	:r C:\Program Files (x86)\Vim\languages\rust\txt\println.txt

@@ -42,7 +42,11 @@ filetype plugin indent on
 set autoread
 au CursorHold * checktime
 
+<<<<<<< HEAD
 let g:ycm_rust_src_path="C:\\Program Files\\rust-master\\src"
+=======
+let g:ycm_rust_src_path="C:\\Program Files\\rust-source\\src"
+>>>>>>> 34725fac5f4f5d581d107b710a932317f5ef42c1
 
 set nobackup
 set hidden

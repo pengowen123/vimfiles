@@ -1,3 +1,4 @@
+# must run this as administator
 # requirements:
 # vim
 # pathogen
@@ -14,7 +15,7 @@
 # ctags
 # rust
 
-cd vimfiles/bundle
+cd vimfiles && mkdir bundle && cd bundle
 
 git clone https://github.com/scrooloose/nerdcommenter.git
 
@@ -30,6 +31,11 @@ git clone https://github.com/Valloric/YouCompleteMe.git
 
 git clone git://github.com/tommcdo/vim-exchange.git && cd YouCompleteMe && git submodule update --init --recursive && python install.py --racer-completer
 
+# languages:
+# for standard library completions in rust download the rust source and move it to:
+# C:\Program Files\rust-source
+
+setx RUST_SRC_PATH "C:\Program Files\rust-source\src"
 git clone --depth=1 https://github.com/rust-lang/rust.vim.git
 
 cargo install rusty-tags
