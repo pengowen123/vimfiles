@@ -27,9 +27,9 @@ git clone git://github.com/jeffkreeftmeijer/vim-numbertoggle.git
 
 git clone https://github.com/romainl/Apprentice.git
 
-git clone https://github.com/Valloric/YouCompleteMe.git
+git clone git://github.com/tommcdo/vim-exchange.git
 
-git clone git://github.com/tommcdo/vim-exchange.git && cd YouCompleteMe && git submodule update --init --recursive && python install.py --racer-completer
+git clone https://github.com/Valloric/YouCompleteMe.git && cd YouCompleteMe && git submodule update --init --recursive && python install.py --racer-completer
 
 # languages:
 # for standard library completions in rust download the rust source and move it to:
