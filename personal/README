@@ -1,0 +1,7 @@
+Move all .vim files in personal/ to ~/.vim/syntax/
+
+Move all .vim files in personal/ftdetect/ to
+~/.vim/ftdetect/
+
+Append these lines to filetype.vim:
+au BufRead,BufNewFile *.masm setfiletype masm

@@ -56,6 +56,9 @@ nnoremap <Space> :wa<CR>
 nnoremap <esc> :noh<return><esc>
 map <C-p> :pop<CR>
 
+map <C-s> za
+nmap <C-f> zfa}
+
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
