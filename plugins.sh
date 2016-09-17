@@ -29,6 +29,8 @@ git clone https://github.com/romainl/Apprentice.git
 
 git clone git://github.com/tommcdo/vim-exchange.git
 
+git clone https://github.com/thinca/vim-localrc.git
+
 git clone https://github.com/Valloric/YouCompleteMe.git && cd YouCompleteMe && git submodule update --init --recursive && python install.py --racer-completer
 
 # languages:
